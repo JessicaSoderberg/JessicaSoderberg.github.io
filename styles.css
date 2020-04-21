@@ -1,0 +1,18 @@
+*{
+    outline:1px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+#container{
+    max-width: 1000px;
+    margin: auto;
+}
+.moreinfo {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
