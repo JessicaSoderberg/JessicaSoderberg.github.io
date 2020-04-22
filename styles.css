@@ -10,12 +10,28 @@ body {
     max-width: 1000px;
     margin: auto;
 }
+
+ /* HOME PAGE CSS */
+
+.header{
+    background-color: #00A8CC;
+    background-image: url('images/logo.png');
+    background-position: center, center;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 150px, 200px;
+    padding-bottom: 50px;
+    padding-top: 45px;
+}
+
 .moreinfo {
     max-width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+/* SKILLS PAGE CSS */
 
 #skills-container{
     max-width: 1000px;
