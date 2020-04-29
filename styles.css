@@ -1,21 +1,29 @@
 
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
- /* *{
+  *{
     outline:1px solid red;
-} */
+}  
 
-body {
+body, html {
     margin: 0;
     font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
+
+.background{
+    background-image: url("images/background.jpg");
+    background-repeat: repeat;
+    background-size: cover; 
+    background-position: center center;
 }
 
 #container{
     max-width: 1000px;
     margin: auto;
-}
-
- /* HOME PAGE CSS */
+    
+} 
 
 .header{
     background-color: #00A8CC;
@@ -31,6 +39,12 @@ body {
     text-decoration: none;
     color: #000839;
 }
+
+.navigationcontainer{
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .navigator{
     background-color: #00A8CC;
     padding-top: 10px;
@@ -38,7 +52,17 @@ body {
     padding-left: 40px;
 }
 
+.socialmedia{
+    background-color: #00A8CC;
+    padding-left: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
 
+
+
+/* HOME PAGE CSS */
 
 .moreinfo {
     max-width: 1000px;
@@ -67,6 +91,14 @@ h1{
     color: #FFA41B;
 }
 
+/* SHOWREEL PAGE CSS */
+
+.showreelvideo{
+    background-color: #005082;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
 
 /* SKILLS PAGE CSS */
 
@@ -74,5 +106,36 @@ h1{
     max-width: 1000px;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 10% 15% 10% 25% 40%;
+}
+
+.skilllogo{
+    margin: auto;
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skilllist{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.experiencelogo{
+    margin:auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.experiencelist{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sidephoto{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
 }
