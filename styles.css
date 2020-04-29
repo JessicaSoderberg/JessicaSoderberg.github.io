@@ -2,9 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
 
-  *{
+ /* *{
     outline:1px solid red;
-}  
+} */
 
 body, html {
     margin: 0;
@@ -31,8 +31,8 @@ body, html {
     background-position: center, center;
     background-repeat: no-repeat, repeat-x;
     background-size: 160px, 210px;
-    padding-bottom: 60px;
-    padding-top: 55px;
+    padding-bottom: 25px;
+    padding-top: 20px;
 }
 
 .links {
@@ -46,14 +46,14 @@ body, html {
     grid-template-columns: 1fr 1fr;
 }
 .navigator{
-    background-color: #00A8CC;
+ 
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 40px;
 }
 
 .socialmedia{
-    background-color: #00A8CC;
+    
     padding-left: 350px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -72,7 +72,7 @@ body, html {
 }
 
 .headshot{
-    background-color: #000839;
+    background-color: #005082;
     background-image: url('images/headshot.png');
     background-position: center, center;
     background-repeat: no-repeat, repeat-x;
@@ -80,7 +80,7 @@ body, html {
 }
 
 .bio{
-    background-color: #005082;
+    background-color: #000839;
     color: white;
     padding-top: 40px;
     padding-bottom: 60px;
@@ -100,52 +100,12 @@ h1{
    
 }
 
-/* SKILLS PAGE CSS */
-
-#skills-container{
-    max-width: 1000px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 10% 15% 10% 25% 40%;
-}
-
-.skilllogo{
-    margin: auto;
-    padding-left: 7px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.skilllist{
-    padding-top: 25px;
-    padding-bottom: 25px;
-    
-}
-
-.experiencelogo{
-    margin:auto;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-
-.experiencelist{
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.sidephoto{
-    padding-top: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin: auto;
-}
-
 
 /* SKILLS PAGE 2.0 CSS */
 
 #bigcontainer{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 30% 30% 40%;
     max-width: 1000px;
     margin: auto;
 }
@@ -153,4 +113,35 @@ h1{
 .leftcontainer{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    background-color: #005082;
+    color: white;
+}
+
+.middlecontainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color:#005082;
+    color: white;
+}
+.skilllogos{
+ 
+    padding-left: 30px;
+    padding-top:30px;
+    height:40px;
+    
+}
+   
+.rightcontainer{
+    
+    background-color: #000839 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.experiencelogos{
+    padding-top:30px;
+    padding-right: 10px;
+     outline-style:dashed;
+    outline-width:thin
 }
