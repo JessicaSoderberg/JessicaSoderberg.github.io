@@ -117,6 +117,13 @@ h1{
     color: white;
 }
 
+p{
+    left:70px;
+    
+    bottom: 60px;
+    position: relative;
+}
+
 .middlecontainer{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -130,18 +137,19 @@ h1{
     height:40px;
     
 }
+  
+.experiencelogos{
+    padding-top:40px;
+    padding-right: 10px;
    
+} 
+
 .rightcontainer{
-    
     background-color: #000839 ;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
+    margin: auto;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    padding-left: 32px;
+    padding-right:31px;
 }
 
-.experiencelogos{
-    padding-top:30px;
-    padding-right: 10px;
-     outline-style:dashed;
-    outline-width:thin
-}
